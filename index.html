@@ -4,6 +4,12 @@
   <script async src="https://my-test-master.dud4.co/_dm/s/common/scripts/publishOverlayAPI.js"></script>
 </head>
 <body>
+    <button id="closeOverlay">Close Overlay</button>
+  <script>
+    document.getElementById("closeOverlay").addEventListener("click", function() {
+      window.publishOverlayAPI.closeOverlay();
+    });
+  </script>
   <button id="connectButton">Open Connect Domain</button>
   <script>
     document.getElementById("connectButton").addEventListener("click", function() {
