@@ -16,5 +16,11 @@
       window.publishOverlayAPI.connectDomain();
     });
   </script>
+    <button id="publishDone">Simulate published via overlay</button>
+  <script>
+    document.getElementById("publishDone").addEventListener("click", function() {
+      window.publishOverlayAPI.publishDone();
+    });
+  </script>
 </body>
 </html>
